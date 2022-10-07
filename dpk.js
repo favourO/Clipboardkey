@@ -11,11 +11,11 @@ exports.deterministicPartitionKey = (event) => {
     candidate = helperFunctions.createCandidateFromEventPartitionKey(event, candidate)
   }
   
-  if (candidate) {
+  else if (candidate) {
     candidate = helperFunctions.createCandidateFromTrivialPartitionKey(candidate)
   }
 
-  if (candidate.length > MAX_PARTITION_KEY_LENGTH) {
+  else if (candidate.length > MAX_PARTITION_KEY_LENGTH) {
     candidate = helperFunctions.createCandidateGreaterThanMaxPartitonKey(candidate)
   }
   
