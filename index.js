@@ -1,0 +1,4 @@
+const { deterministicPartitionKey } = require('./key')
+
+
+exports.run = deterministicPartitionKey('9c21abc503ed94e4c6f1cbfa60fd981afd483dd550ac29562d84b78ff5a0dcbe973a23dcac25d61a609d6a3309fef29f211169db506418e284d0f81c11d8652b9c21abc503ed94e4c6f1cbfa60fd981afd483dd550ac29562d84b78ff5a0dcbe973a23dcac25d61a609d6a3309fef29f211169db506418e284d0f81c11d8652b')
