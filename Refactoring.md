@@ -31,4 +31,4 @@ Candidate is created when Partition key is greater than 256
 
 ### Testing was done JEST
 
-- Tst was written using Jest
+- Test was written using Jest
